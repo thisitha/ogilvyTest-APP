@@ -42,7 +42,7 @@ Context context;
 
         mRequestQueue = Volley.newRequestQueue(this);
 
-        //String Request initialized
+
         mStringRequest = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
